@@ -60,7 +60,7 @@ const HomeBSCPage = () => {
         </div>
         {/* Upgrade button */}
         <div className="absolute top-[126px] left-[4rem] lg:left-[58px] z-30">
-          <Link href={"./upgrade-character"}>
+          <Link href={"./upgrade-character-bsc"}>
             <div className="w-[70px] h-[28px] upgrade-button text-[10px] text-[#E7E9EC] relative flex items-center justify-center">
               Upgrade
               <div className="absolute bottom-[2px] left-1/2 transform -translate-x-1/2">
