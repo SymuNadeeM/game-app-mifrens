@@ -1,8 +1,16 @@
 import Image from "next/image";
+import { useState } from "react";
 import sectionIcon from "../../../../assets/home/section-home.svg";
 import spDemo from "../../../../assets/shop/sp-demo.png";
 
 const SpecialTabs = () => {
+  const [isSubscribed, setIsSubscribed] = useState(false);
+
+  // Handle Subscribe button click
+  const handleSubscribeClick = () => {
+    setIsSubscribed(true);
+  };
+
   return (
     <div className="w-[590px] lg:w-[656px] h-[250px] lg:h-[288px] rounded border-[.5px] border-white/[10%] bg-[#293557]/[20%] backdrop-blur pt-[15px] pl-3 pr-[14px]">
       <div className="w-full h-[136px] rounded border-[.5px] border-white/[3%] bg-[#293557]/[20%] backdrop-blur flex items-center gap-1">
@@ -28,8 +36,20 @@ const SpecialTabs = () => {
                 /month
               </p>
             </div>
+            {isSubscribed && (
+              <p className="text-[10px] font-medium text-[#D92348]">
+                Expires: 10/12/2024
+              </p>
+            )}
           </div>
-          <button className="w-[102px] h-8 flex items-center justify-center rounded border-t subscribe-button text-xs font-semibold text-[#0C1A35]">
+          <button
+            onClick={handleSubscribeClick}
+            className={`w-[102px] h-8 flex items-center justify-center rounded  text-xs font-semibold text-[#0C1A35] ${
+              isSubscribed
+                ? " subscribe-active text-[#979EAC]"
+                : "text-[#0C1A35] subscribe-button border-t"
+            } `}
+          >
             Subscribe
           </button>
         </div>

@@ -433,6 +433,10 @@ iframe.iframe.landscape {
   box-shadow: 0px 1px 0px 0px #fbf86b inset;
 }
 
+.subscribe-active {
+  background: #4b5111;
+}
+
 .custom-scrollbar {
   scroll-margin: 0;
   overflow-y: scroll;
