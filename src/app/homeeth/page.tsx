@@ -5,7 +5,7 @@ import buttonShapes from "../../assets/home/button-shape.svg";
 import characterBig from "../../assets/home/eth/eth-big-1.png";
 import sectionIcon from "../../assets/home/eth/eth-logo.svg";
 import splashScreen from "../../assets/home/splash-screen.svg";
-import AllDetailsButton from "../components/screen/Home/AllDetailsButton";
+import AllDetailsButtonEth from "../components/screen/Home/AllDetailsButtonEth";
 import DailyClaims from "../components/screen/Home/DailyClaims";
 import HomeNav from "../components/shared/Navbar/HomeNav";
 
@@ -78,7 +78,7 @@ const HomeETHPage = () => {
         {/* all details button */}
         {/* className="absolute right-2 top-[23%] lg:right-8 lg:top-[113px] scale-[80%] lg:scale-100" */}
         <div className="absolute top-[23%] lg:top-[113px] right-6 lg:right-8 z-30">
-          <AllDetailsButton />
+          <AllDetailsButtonEth />
         </div>
 
         <div className="absolute top-[65%] lg:top-[253px] left-[135px] z-40">

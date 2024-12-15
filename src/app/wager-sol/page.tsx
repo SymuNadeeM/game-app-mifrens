@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import closeICon from "../../assets/wager/close-button.png";
 import WagerAllCard from "../components/screen/Wager/WagerAllCard";
-const WagerPage = () => {
+const WagerSolPage = () => {
   const router = useRouter();
   return (
     <div className="flex flex-col items-center justify-center min-h-screen w-screen lg:w-full overflow-x-hidden">
@@ -21,7 +21,7 @@ const WagerPage = () => {
         <div className="flex items-center justify-end">
           <div className="mt-5 lg:mt-7 mr-8 lg:mr-6">
             <Link
-              href={"./searching-opponent"}
+              href={"./searching-opponent-sol"}
               className="w-[142px] h-8 next-button rounded flex items-center justify-center font-semibold text-darkBlue relative z-20"
             >
               Battle
@@ -33,4 +33,4 @@ const WagerPage = () => {
   );
 };
 
-export default WagerPage;
+export default WagerSolPage;
