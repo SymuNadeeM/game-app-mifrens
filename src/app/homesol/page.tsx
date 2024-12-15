@@ -45,7 +45,7 @@ const HomeSOLPage = () => {
             </div>
             <div className="ml-[23px] pl-4 py-[9px]">
               <h4 className="text-sm font-medium text-white leading-[21px] tracking-[-1%]">
-                NOT COIN
+                BONK
               </h4>
               <div className="flex items-center gap-[3px]">
                 <h5 className="text-[10px] text-white/[50%] tracking-[-1%]">
