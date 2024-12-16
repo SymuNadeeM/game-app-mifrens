@@ -1,6 +1,6 @@
 import Image from "next/image";
+import charPepe from "../../../../assets/searching-opp/eth/character-pepe.png";
 import ethICon from "../../../../assets/searching-opp/eth/eth-logo.svg";
-import pepePic from "../../../../assets/searching-opp/eth/eth-pepe.png";
 import coinF from "../../../../assets/searching-opp/F_Coin.png";
 import starIcon from "../../../../assets/searching-opp/star-icon.png";
 
@@ -9,7 +9,7 @@ const CharacterPartEth = () => {
     <div className="pt-8 lg:pt-[60px] px-8 pb-10">
       <div className="w-[174px] h-[181px] rounded border-[.5px] border-white/[12%] bg-[#293557]/[20%] backdrop-blur overflow-hidden relative z-20 flex items-center justify-center">
         <div className="w-[149px]">
-          <Image src={pepePic} alt="pepePic" />
+          <Image src={charPepe} alt="charPepe" />
         </div>
         <div className="absolute bottom-0">
           <div className="w-[173px] h-[46px] bg-[#1E2A4C] backdrop-blur rounded-bl rounded-br relative">
