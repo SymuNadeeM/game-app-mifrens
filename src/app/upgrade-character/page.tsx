@@ -154,7 +154,11 @@ const UpgradeCharacterPage = () => {
 
       {/* Upgrade Modal */}
       <UpgradeModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
-        {isUpgrading ? <UpgradeLoading /> : <SuccessLoader />}
+        {isUpgrading ? (
+          <UpgradeLoading name="M’Fren" />
+        ) : (
+          <SuccessLoader name="M’Fren" />
+        )}
       </UpgradeModal>
     </div>
   );

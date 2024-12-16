@@ -1,8 +1,11 @@
 import Image from "next/image";
-
 import frameTitle from "../../../../assets/upgrade-character/frame-title-pn.png";
 
-const SuccessLoader = () => {
+interface SuccessLoaderProps {
+  name: string;
+}
+
+const SuccessLoader: React.FC<SuccessLoaderProps> = ({ name }) => {
   return (
     <div>
       <div className="flex items-center justify-center mt-3">
@@ -31,7 +34,7 @@ const SuccessLoader = () => {
         </div>
         <div className="absolute top-[241.82px] left-[300.5px]">
           <h4 className="text-xs text-[#C5C9D1]">
-            M’Fren has been upgrade to Level 2
+            {name} has been upgraded to Level 2
           </h4>
         </div>
       </div>
