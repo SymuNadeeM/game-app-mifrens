@@ -10,15 +10,14 @@ import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import dollarBig from "../../assets/wager/dollar-icon-big.png";
 const WagerBscPage = () => {
-  const [selectedEntry, setSelectedEntry] = useState(null);
+  const [selectedEntry, setSelectedEntry] = useState<string | null>(null);
   const router = useRouter();
 
-  const handleCardClick = (entry) => {
-    // Store the selected entry in localStorage
+  const handleCardClick = (entry: string) => {
     setSelectedEntry(entry);
     localStorage.setItem("selectedEntry", entry);
-    // router.push("./searching-opponent-bsc");
   };
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen w-screen lg:w-full overflow-x-hidden">
       <div className="w-screen lg:w-[812px] h-screen lg:h-[375px] bg-[url('/wager-bg.svg')] bg-[#081626] text-white overflow-hidden relative">
