@@ -27,14 +27,14 @@ export const wagerCardData = [
     sack: dollarSack,
   },
   {
-    prize: 10000,
-    entry: 5000,
+    prize: 15000,
+    entry: 6000,
     icon: dollarIcon,
     sack: dollarSack,
   },
   {
-    prize: 10000,
-    entry: 5000,
+    prize: 20000,
+    entry: 10000,
     icon: dollarIcon,
     sack: dollarSack,
   },
