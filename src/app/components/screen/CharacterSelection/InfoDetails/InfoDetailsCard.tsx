@@ -25,7 +25,9 @@ const InfoDetailsCard = ({ character }: InfoDetailsCardProps) => {
   return (
     <div className="space-y-2.5">
       {/* Info */}
-      <h4 className="text-[10px] lg:text-xs text-[#E7E9EC]">{character.info}</h4>
+      <h4 className="text-[10px] lg:text-xs text-[#E7E9EC]">
+        {character.info}
+      </h4>
 
       {/* Traits */}
       <div className="space-y-[2px]">
@@ -34,10 +36,7 @@ const InfoDetailsCard = ({ character }: InfoDetailsCardProps) => {
         </h5>
         <div className="grid grid-cols-2 gap-1 lg:gap-2.5">
           {character.traits.map((trait, index) => (
-            <div
-              className="flex items-center gap-1"
-              key={index}
-            >
+            <div className="flex items-center gap-1" key={index}>
               <div className="w-[6px] h-[6px] rounded-full bg-[#E1892B]"></div>
               <h4 className="text-xs text-[#E7E9EC]">{trait}</h4>
             </div>

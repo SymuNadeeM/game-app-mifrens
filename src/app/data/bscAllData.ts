@@ -1,6 +1,6 @@
 import bscBig1 from "../../assets/character-select/bsc/bsc-big-1.png";
-import bscGun1 from "../../assets/character-select/bsc/bsc-gun.png";
 import bscSm1 from "../../assets/character-select/bsc/bsc-sm-1.png";
+import bscGun1 from "../../assets/character-select/bsc/doge-4k.png";
 
 export const bscCharacters = [
   {

@@ -22,7 +22,7 @@ const HomeBSCPage = () => {
               height={375}
               src={characterBig}
               alt="characterBig"
-              className="w-full h-full"
+              className="w-full h-full pr-6"
             />
           </div>
         </div>

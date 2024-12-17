@@ -2,7 +2,7 @@ import characterOne from "../../assets/character-select/characters-one.png";
 import characterSmOne from "../../assets/character-select/characters-sm-one.png";
 import characterSmTwo from "../../assets/character-select/characters-sm-two.png";
 import characterTwo from "../../assets/character-select/characters-two.png";
-import gunOne from "../../assets/character-select/gun-one.svg";
+import gunOne from "../../assets/character-select/gun-mir-4k.png";
 import gunTwo from "../../assets/character-select/gun-two.svg";
 
 export const tonCharacters = [
